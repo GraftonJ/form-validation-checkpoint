@@ -2,6 +2,13 @@ input {
   margin: 5px;
   padding: 5px;
   font-size: 15px;
+  font-family: trebuchet;
+}
+
+label {
+  font-family: trebuchet;
+  font-size: 25px;
+
 }
 
 input:hover {
@@ -9,7 +16,7 @@ input:hover {
 }
 
 body {
-  background-color: tomato;
+  background-image: url(https://images.wallpaperscraft.com/image/circles_highlights_background_form_size_47438_2560x1600.jpg);
   margin: 5px;
   padding: 10px;
 }
@@ -34,7 +41,7 @@ body {
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #1e70f4;
+  background-color: tomato;
   border: none;
   color: #FFFFFF;
   text-align: center;
