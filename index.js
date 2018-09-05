@@ -18,6 +18,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     if (adminBox.checked === true) {
       adminPassword.setAttribute('type', 'password')
     }
+    else {
+      adminPassword.setAttribute('type', 'hidden')
+    }
   })
   form.addEventListener('submit', function passwordCheck(evt) {
     evt.preventDefault()
