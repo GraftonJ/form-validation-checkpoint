@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" charset="utf-8"></script>
+  </script>
+</head>
+
+<body>
+  <div class="container" id='container'>
+    <div class="row">
+      <div class="col">
+        <form id='myForm'>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+          <br>
+          <label for="Password">Password</label>
+          <input type="password" name="Password" id="Password" minlength="9" required>
+          <br>
+          <label for='Admin'>Admin</label>
+          <input type="checkbox" name="admin" id="admin">
+          <br>
+          <input type='hidden' name='secretPassword' id='secretPassword' placeholder="Secret Password">
+          <br>
+          <label for="submit"></label>
+          <input type="submit" class="button" name="submit" id='submit'>
+
+          <!--
+
+      Build a form that includes the following:
+      - A validated email field that is required
+      - A validated password field that is required and must be more than 8 characters
+      - A checkbox labeled "Admin"
+      - If the checkbox is checked, show another form field called "Secret Password"
+      - The "Secret Password" input is required if and only if the "Admin" checkbox is selected
+      - A submit button
+      - When the form is submitted, if the "Admin" checkbox is checked but there is no password or it does not match the secretPassword, show an error
+      - If everything is correct, show a success message
+
+      -->
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
