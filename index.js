@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   })
   form.addEventListener('submit', function passwordCheck(evt) {
     evt.preventDefault()
-    if (adminPassword.value.length === 0 || adminPassword.value !== 'DOMCONTENTLOADED') {
+    if ((adminPassword.value.length === 0 || adminPassword.value !== 'DOMCONTENTLOADED') && adminBox.checked === true) {
         alert('The Admin Password is not Correct')
     }
     else {
